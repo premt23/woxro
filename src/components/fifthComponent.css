@@ -1,0 +1,17 @@
+.inline-button {
+    
+    background-color: black;
+    color: white;
+    font-size: 1.2rem;
+    border: 1px solid white;
+    transition: color 0.3s;
+    padding: 1rem;
+  }
+
+
+.inline-button:hover {
+    
+    background-color: white;
+    color: black;
+  }
+  

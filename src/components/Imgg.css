@@ -1,0 +1,60 @@
+.imgg-title {
+    font-size: 3.4rem;
+    font-weight: bold;
+    line-height: 1.2;
+  }
+  
+  .imgg-para {
+    font-size: 1.3rem;
+    line-height: 1.5;
+  }
+  
+  
+  .imgg-text {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    
+    /* transform: translate(-40%, -70%); */
+    text-align: center;
+    margin-left: 2.6rem;
+    margin-right: 2.6rem;
+    color: white;
+    z-index: 1;
+  }
+  .imgg-para {
+    margin-top: 7rem;
+  }
+  
+
+  @media (max-width: 1200px) {
+    .imgg-title {
+      font-size: 2.6rem;
+    }
+  
+    .imgg-para {
+        margin-top: 2rem;
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .imgg-title {
+      font-size: 1.8rem;
+    }
+  
+    .imgg-para {
+      font-size: 0.7rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .imgg-title {
+      font-size: 1.2rem;
+    }
+  
+    .imgg-para {
+      font-size: 0.6rem;
+    }
+  }
+  

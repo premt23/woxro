@@ -3,11 +3,25 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Firstcom from './components/Firstcom';
+import Mynav from './components/Mynav';
+import Imgg from './components/Imgg';
+import Writings from './components/Writings';
+import Fifthcomponent from './components/Fifthcomponent';
+
+
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <Firstcom/>
+     <Mynav/>
+     <Imgg/>
+     <Writings/>
+     <Fifthcomponent/>
   </React.StrictMode>
 );
 
